@@ -1,7 +1,6 @@
 <?php
 
 if (!empty($_POST)) {
-
     $encodedData = explode(",", $_POST['image']);
     $encodedData = str_replace(' ', '+', $encodedData[1]);
     $decocedData = base64_decode($encodedData);
