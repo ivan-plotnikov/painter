@@ -96,7 +96,7 @@ $images = array_reverse(glob("*.jpg"));
     </div>
     <div class="row">
         <div class="col" id="images-container">
-        <?php if(count($images) > 0): ?>
+        <?php if (count($images) > 0): ?>
             <?php foreach ($images as $image): ?>
                 <img src="<?php echo $image?>" class="border rounded">
             <?php endforeach; ?>
